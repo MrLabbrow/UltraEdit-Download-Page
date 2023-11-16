@@ -1,0 +1,149 @@
+body{
+    font-family: "Segoe UI";
+
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Segoe UI";
+}
+
+.logo {
+    /* width: 40px;
+    height: 23px; */
+    /* background-color: blue; */
+}
+
+.logo img {
+    width: 164px;
+}
+
+.right ul {
+    display: flex;
+    gap: 34px;
+
+}
+
+.right ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.right ul li span {
+    padding: 0 5px;
+}
+
+.language-logo img {
+    width: 17px;
+}
+
+.first {
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    margin: 70px;
+    font-family: "Segoe UI";
+
+}
+
+.first span {
+    font-size: 34px;
+}
+
+.first span img {
+    width: 112px;
+    margin: 0 15px;
+
+}
+
+.first p {
+    font-size: 19px;
+    width: 80vw;
+    text-align: center;
+}
+
+.btn{
+    background-color: #00b6d1;
+    font-size: 14px;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin: 12px 0;
+    cursor: pointer;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.green{
+    background-color: #5cb85c;
+}
+.flex{
+    display: flex;
+}
+
+.second{
+    max-width: 80vw;
+    margin: auto;
+    gap: 10px;
+    justify-items: center;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    /* background-color: aquamarine; */
+
+
+}
+
+.small{
+    font-size: 12px;
+}
+
+.item{
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 11px;
+    font-size: 20px;
+    font-family: "Segoe UI";
+    text-align: center;
+}
+.item-lang{
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 43px;
+
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+}
+
+.download :nth-child(2){
+    font-size: 23px;
+
+}
+
+.download{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+@media screen and (max-width: 1400px) {
+    .grid{
+        grid-template-columns: 1fr;
+    }
+    
+}
